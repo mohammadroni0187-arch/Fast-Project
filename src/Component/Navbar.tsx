@@ -15,7 +15,7 @@ const Navbar = () => {
 </button>
      <a href="https://dev-stack-roni.netlify.app/"> <img src={Logo} alt="" className='flex md:flex items-center p-5'/></a>
       
-        <ul className='hidden md:flex gap-6 items-center font-bold'>
+        <ul className='hidden md:flex gap-6 items-center font-semibold'>
           <li className='text-red-400'>Home</li>
           <li>Technologies</li>
           <li>Projects</li>
