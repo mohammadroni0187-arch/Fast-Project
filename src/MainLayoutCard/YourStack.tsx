@@ -13,8 +13,8 @@ const YourStack = ({stack, onRemove,onRemoveAll}:YourStackProps) => {
         Your Stack
       </h3>
             <p className="text-xs text-gray-500 mb-4">
-                 {stack.length === 0? "No technologies selected yet.":
-                  `${stack.length} ${stack.length === 1 ? "technology" : "technology"} selected.`}
+                 {stack.length === 0? "No Technologies selected yet.":
+                  `${stack.length} ${stack.length === 1 ? "Technology" : "Technology"} Selected.`}
                 </p>
         {stack.length === 0 ? (
         <>
