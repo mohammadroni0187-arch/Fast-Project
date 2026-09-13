@@ -33,3 +33,23 @@ See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rule
 
 
 
+Project Name : Dev Stack.
+
+Description : 
+Dev Stack is a technology stack explorer where developers can
+explore different database, and development tools.
+
+Technology :
+1 - React
+2 - Vite
+3 - JSON
+4 - TypeScript
+5 - Tailwind CSS
+6 - DaisyUI
+7 - React-Icon
+8 - React-Toastify
+
+Features:
+1 - Explore different technologies.
+2 - Add technologies to Your Stack
+3 - Remove technologies from Your Stack
