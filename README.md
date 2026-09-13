@@ -77,4 +77,6 @@ Answer: Conditional rendering means showing different UI based on a condition. I
 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 Answer: A parent component passes data to a child through props. A child can send information back by calling a function passed to it through props. In my project, MainCard passes the stack data and functions to YourStack.
 
-   ()
+  
+  
+   (Bhai/BSon: ami English Durbol Tai AI help nici.)
