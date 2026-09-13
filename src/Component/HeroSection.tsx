@@ -6,12 +6,12 @@ const HeroSection = () => {
       <div className='flex-1'>
 
       <h2 className='text-7xl font-bold'>Build Your Ideal
-<span className='block text-purple-600'>Development Stack</span></h2>
+<span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent" >Development Stack</span></h2>
 <p className='text-gray-600 mt-6 max-w-xl leading-7'>Explore frontend, backend, database, and tooling options,
 compare them side by side, and put together the stack that fits your
 next project.</p>
 <div className='mt-6 flex gap-4'>
-    <button className="btn bg-pink-500">Explore Technologies</button>
+    <button className="btn border-none text-white bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500">Explore Technologies</button>
           <button className="btn text-black">Learn More</button>
       </div>
 </div>
