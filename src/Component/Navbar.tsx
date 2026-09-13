@@ -13,7 +13,7 @@ const Navbar = () => {
 >
   <CiMenuBurger />
 </button>
-     <a href=""> <img src={Logo} alt="" className='flex md:flex items-center p-5'/></a>
+     <a href="https://dev-stack-roni.netlify.app/"> <img src={Logo} alt="" className='flex md:flex items-center p-5'/></a>
       
         <ul className='hidden md:flex gap-6 items-center font-bold'>
           <li className='text-red-400'>Home</li>
