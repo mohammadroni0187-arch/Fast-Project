@@ -13,19 +13,28 @@ const MainCard = ({ card }: MainCardProps) => {
 
 
   const handleAddStack =(item:Icard)=>{
+if (isAddStack.some(stack => stack.id === item.id)) {
+  toast.error("Already added to your stack!");
+  return;
+}
+
  setIsAddStack([...isAddStack, item])
  toast.success(` ${item.name} Add to Your Stack!`, {
 position: "bottom-right",
 autoClose: 5000,
 theme: "light"
 })
+
   }
+  
   const handleRemoveStack=(id:string)=>{
     setIsAddStack(isAddStack.filter((item)=>item.id!==id));
+    toast.success("Removed from your stack!");
   };
 
   const handleRemoveAll=()=>{
     setIsAddStack([]);
+    toast.success("All technologies removed!");
   };
   return (
    <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mt-8">
@@ -88,7 +97,7 @@ theme: "light"
           
           <button
           onClick={()=>handleAddStack(item)}
-           disabled={isAddStack.some((stack)=> stack.id===item.id)}
+        
            className={`w-full bg-black text-white py-3 rounded-xl font-semibold transition ${isAddStack.some((stack)=>stack.id===item.id)?"bg-red-400":"bg-black text-white hover:bg-green-400"}`} >
             {isAddStack.some((stack)=>stack.id===item.id)? "Added to Stack" : "Add to Stack"}
           </button>
