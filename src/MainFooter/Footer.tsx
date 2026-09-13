@@ -5,7 +5,7 @@ const Footer = () => {
       <footer className='w-full bg-white border border-gray-200 py-12 px-6 mt-16'>
     <div className='max-w-7xl mx-auto'>
       <div className='grid grid-cols-1 md:grid-cols-5 gap-8  mb-12'>
-        <div className='md:col-span-2 '>
+        <div className='md:col-span-2 text-center md:text-left'>
           <img src={FooterLogo }alt="" />
         <p className='text-gray-500 text-sm max-w-sm
         mt-4'>Curated tools, technologies, and resources for developers building modern software.</p>
@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="">Linkedin</a>
         </div>
         </div>
-        <div >
+        <div className='hidden md:block'>
           <h4 className='text-xs font-bold text-gray-900 tracking-wider mb-4'>PRODUCT</h4>
           <ul className='space-y-2.5 text-sm text-gray-500'>
             
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
 
-        <div >
+        <div className='hidden md:block'>
           <h4 className='text-xs font-bold text-gray-900 tracking-wider mb-4'>COMPANY</h4>
           <ul className='space-y-2.5 text-sm text-gray-500'>
             
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
 
 
-        <div >
+        <div className='hidden md:block'>
           <h4 className='text-xs font-bold text-gray-900 tracking-wider mb-4'>LEGAL</h4>
           <ul className='space-y-2.5 text-sm text-gray-500'>
             
