@@ -40,14 +40,14 @@ Dev Stack is a technology stack explorer where developers can
 explore different database, and development tools.
 
 Technology :
-1 - React
-2 - Vite
-3 - JSON
-4 - TypeScript
-5 - Tailwind CSS
-6 - DaisyUI
-7 - React-Icon
-8 - React-Toastify
+1- React.
+2- Vite.
+3- JSON.
+4- TypeScript.
+5- Tailwind CSS.
+6- DaisyUI.
+7- React-Icon.
+8- React-Toastify.
 
 Features:
 1 - Explore different technologies.
@@ -79,4 +79,4 @@ Answer: A parent component passes data to a child through props. A child can sen
 
   
   
-   (Bhai/BSon: ami English Durbol Tai AI help nici.)
+   
