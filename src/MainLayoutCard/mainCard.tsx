@@ -14,7 +14,7 @@ const MainCard = ({ card }: MainCardProps) => {
 
   const handleAddStack =(item:Icard)=>{
  setIsAddStack([...isAddStack, item])
- toast(` ${item.name} Add to Your Stack!`, {
+ toast.success(` ${item.name} Add to Your Stack!`, {
 position: "bottom-right",
 autoClose: 5000,
 theme: "light"
@@ -89,7 +89,7 @@ theme: "light"
           <button
           onClick={()=>handleAddStack(item)}
            disabled={isAddStack.some((stack)=> stack.id===item.id)}
-           className={`w-full bg-black text-white py-3 rounded-xl font-semibold hover:bg-gray-800 transition`} >
+           className={`w-full bg-black text-white py-3 rounded-xl font-semibold transition ${isAddStack.some((stack)=>stack.id===item.id)?"bg-red-400":"bg-black text-white hover:bg-green-400"}`} >
             {isAddStack.some((stack)=>stack.id===item.id)? "Added to Stack" : "Add to Stack"}
           </button>
         </div>
