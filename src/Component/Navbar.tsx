@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
    <nav className='fixed top-0 left-0 w-full h-16 z-50 bg-white pt-2'>
    <div className='container mx-auto flex justify-between'>
-        <button
+        <button 
   onClick={() => setIsMeno(!isMeno)}
   className="md:hidden text-3xl"
 >
